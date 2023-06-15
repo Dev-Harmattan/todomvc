@@ -20,6 +20,7 @@ class Todo {
 		this.template = new Template();
 		this.view = new View(this.template);
 
+		//controller change.
 		this.controller = new Controller(this.model, this.view);
 	}
 }
